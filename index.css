@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.a-main{
+    img{
+        width: 80px;
+        height: 24px;
+    }
+   
+}
+.c-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 4%;
+    a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+}
+.d-main{
+    margin-top: 4%;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    background: url(https://fuz1700.github.io/zafar-alivio-/images/header.png) no-repeat center center / cover;
+    
+}
+.a-main{
+  margin-top: 4%;
+  margin-left: 2%;
+  h1{
+    color: #01996D;
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  p{
+    font-style: 20px;
+    font-weight: 400;
+    margin-top: 1%;
+  }
+  button{
+    width: 150px;
+    height: 50px;
+    margin-top: 1%;
+    font-size: 16px;
+    background-color: #01996D;
+    color: white;
+    border: none;
+  }
+    
+}
+.green{
+    background-color: #01996D;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+.white{
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+aside{
+    margin-right: 20%;
+    img{
+      width: 1480px;
+      height: 750px;
+     
+    }
+}
+footer{
+    margin-top: 5%;
+    text-align: center;
+    img{
+        width: 1370px;
+        height: 648px;
+        margin-right: 2%;
+    }
+}
